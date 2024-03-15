@@ -2,9 +2,6 @@
 
 Welcome to the GitHub repository for our thesis project (module 12-GEO-M-RS01) on investigating atmospheric responses to the 2014-2015 North American boreal wildfires utilizing a space-for-time approach.
 
-## Table of Contents
-Optional
-
 ## Introduction
 
 This thesis project explores the impact of the 2014-2015 North American boreal wildfires on atmospheric dynamics due to the vegetation loss in post-fire ecosystems.
