@@ -23,10 +23,10 @@ Additional criteria, including ecological behavior indicators such as ∆kNDVI, 
 Control pixels are selected based on thresholds determined by Liu et al. (2019) and expert knowledge.
 
 3. Assignment of Control Pixels:
-The closest control pixel to each fire pixel is identified using Euclidean distance.
+The closest control pixel, fulfilling the aforementioned conditions, to each fire pixel is selected within a 5 x 5 cell radius.
 
 4. Analysis:
-Monthly mean differences in temperature and precipitation between fire and control pixels are calculated for up to two years after the fire event.
+Monthly mean differences in temperature and precipitation between fire and control pixels are calculated for two years before and three years after the last fire event.
 
 ## Installation
 To run the analysis code for the thesis, ensure you have Miniconda installed as your package manager. Then, install the necessary Python packages:
