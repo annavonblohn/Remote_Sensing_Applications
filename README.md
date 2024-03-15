@@ -35,12 +35,7 @@ Monthly mean differences in temperature and precipitation between fire and contr
 To run the analysis code for the thesis, ensure you have Miniconda installed as your package manager. Then, install the necessary Python packages using the following commands:
 
 ```bash
-conda install -c conda-forge xarray gdal numpy pandas netcdf4 matplotlib scipy
-
-## Usage
-Explain how to use your thesis project.
-Include instructions on how to reproduce your results, run your code, or access your documents.
-Provide examples if applicable.
+conda install -c conda-forge xarray gdal numpy pandas netcdf4 matplotlib scipy ```
 
 ## Data
 
