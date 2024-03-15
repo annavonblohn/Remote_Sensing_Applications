@@ -32,8 +32,10 @@ The closest control pixel to each fire pixel is identified using Euclidean dista
 Monthly mean differences in temperature and precipitation between fire and control pixels are calculated for up to two years after the fire event.
 
 ## Installation
-Provide instructions on how to install any necessary software or dependencies required to run your thesis code or view your documents.
-Include any specific versions or configurations needed.
+To run the analysis code for the thesis, ensure you have Miniconda installed as your package manager. Then, install the necessary Python packages using the following commands:
+
+```bash
+conda install -c conda-forge xarray gdal numpy pandas netcdf4 matplotlib scipy
 
 ## Usage
 Explain how to use your thesis project.
