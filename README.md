@@ -37,6 +37,7 @@ To run the analysis code for the thesis, ensure you have Miniconda installed as 
 ```bash
 conda install -c conda-forge xarray gdal numpy pandas netcdf4 matplotlib scipy;
 
+
 ## Data
 
 All data, besides land cover data, was downloaded from the Earth System Data Lab (ESDL). This data hub provides analysis-ready Earth system data from multiple sources in the form of data cubes. For more information on data cubes, please see [Mahecha et al. 2020](https://esd.copernicus.org/articles/11/201/2020/). 
