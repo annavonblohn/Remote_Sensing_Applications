@@ -32,14 +32,17 @@ The closest control pixel to each fire pixel is identified using Euclidean dista
 Monthly mean differences in temperature and precipitation between fire and control pixels are calculated for up to two years after the fire event.
 
 ## Installation
-To run the analysis code for the thesis, ensure you have Miniconda installed as your package manager. Then, install the necessary Python packages using the following commands:
+To run the analysis code for the thesis, ensure you have Miniconda installed as your package manager. Then, install the necessary Python packages:
 
-```bash
-conda install -c conda-forge xarray gdal numpy pandas netcdf4 matplotlib scipy;
-
+- xarray
+- gdal
+- numpy
+- pandas
+- netCDF4
+- matplotlib
+- scipy
 
 ## Data
-
 All data, besides land cover data, was downloaded from the Earth System Data Lab (ESDL). This data hub provides analysis-ready Earth system data from multiple sources in the form of data cubes. For more information on data cubes, please see [Mahecha et al. 2020](https://esd.copernicus.org/articles/11/201/2020/). 
 Data for every variable can be downloaded from the [ESDL webpage](https://deepesdl.readthedocs.io/en/latest/datasets/ESDC/) (last checked: 10 March 2024), along with a detailed description of the dataset as well as information about the initial data and processing. All data has been resampled by ESDL to a temporal resolution of 8 days and a spatial resolition of 0.25°. The data files are provided in the .zarr format.
 
